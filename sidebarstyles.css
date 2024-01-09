@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  color: white;
+  font-size: 12px;
+  font-family: "Flamenco", cursive;
+}
+.toggle-button {
+  margin: 12px;
+}
+.sidebar {
+  font-size: 20px;
+  margin-top: -42px;
+  display: grid;
+  padding: 20px;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 60px;
+  transition: var(--transition);
+  transform: translate(-100%);
+  width: 30vh;
+  height: 95vh;
+  backdrop-filter: blur(12px);
+  border-radius: 0 10px 10px 0;
+  transition-duration: 900ms;
+  background-color: rgba(0, 0, 0, 0.228);
+}
+.sidebar-visible {
+  transition-duration: 200ms;
+  transform: translate(0);
+}
+ul a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.links ul {
+  display: grid;
+  list-style-type: none;
+  grid-gap: 40px;
+}
+a {
+  padding: 0px;
+  margin: 0px;
+}
+.social-media-links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  background: transparent;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  background-image: url(/space_planet_ship_73877_2560x1600.jpg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover, 100%;
+  height: 100vh;
+}
+.sidebar-toggle {
+  margin: 2px;
+}
+.size {
+  font-size: 20px;
+}
